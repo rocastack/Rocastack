@@ -40,6 +40,8 @@ body {
   background: radial-gradient(ellipse at top, rgba(0, 168, 255, 0.15) 0%, rgba(11, 17, 32, 0) 70%);
   z-index: -1;
   pointer-events: none;
+  transform: translateX(-50%) translateZ(0); /* Hardware acceleration */
+  will-change: transform;
 }
 
 .bg-glow-bottom {
@@ -52,6 +54,8 @@ body {
   background: radial-gradient(ellipse at bottom, rgba(0, 168, 255, 0.15) 0%, rgba(11, 17, 32, 0) 70%);
   z-index: -1;
   pointer-events: none;
+  transform: translateX(-50%) translateZ(0);
+  will-change: transform;
 }
 
 .grid-bg {

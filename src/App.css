@@ -562,17 +562,16 @@
     left: auto;
     bottom: 0;
     width: 280px;
-    /* Sólo un panel lateral, no cubre toda la pantalla */
     background: rgba(11, 17, 32, 0.95);
     backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
     border-left: 1px solid rgba(255, 255, 255, 0.1);
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 2rem 0;
     font-size: 1.2rem !important;
-    transform: translateX(100%) !important;
-    /* Escondido a la derecha */
+    transform: translateX(100%) translateZ(0) !important;
     opacity: 1;
     pointer-events: auto;
     transition: transform 0.4s cubic-bezier(0.25, 0.8, 0.25, 1);
