@@ -31,10 +31,17 @@ const StyledWrapper = styled.div`
 
   @keyframes animStar {
     from {
-      transform: translateY(0px);
+      transform: translateY(0px) translateZ(0);
     }
     to {
-      transform: translateY(-2000px);
+      transform: translateY(-2000px) translateZ(0);
+    }
+  }
+
+  @media (max-width: 768px) {
+    #stars, #stars2, #stars3,
+    #stars:after, #stars2:after, #stars3:after {
+      animation: none !important;
     }
   }
 
