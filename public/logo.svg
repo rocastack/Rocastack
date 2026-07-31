@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%" style="background-color: transparent;">
+  <!-- Columna Izquierda (La "Roca" / Base sólida blanca) -->
+  <rect x="140" y="98" width="64" height="48" rx="24" fill="#FFFFFF" />
+  <rect x="140" y="162" width="64" height="48" rx="24" fill="#FFFFFF" />
+  <rect x="140" y="226" width="64" height="48" rx="24" fill="#FFFFFF" />
+  <rect x="140" y="290" width="64" height="48" rx="24" fill="#FFFFFF" />
+  <rect x="140" y="354" width="64" height="48" rx="24" fill="#FFFFFF" />
+  
+  <!-- Lado Derecho (El "Stack" / Módulos dinámicos con degradado de colores) -->
+  <rect x="212" y="98" width="148" height="48" rx="24" fill="#00F0FF" />
+  <rect x="296" y="162" width="64" height="48" rx="24" fill="#00D0FF" />
+  <rect x="212" y="226" width="128" height="48" rx="24" fill="#00A8FF" />
+  <rect x="252" y="290" width="64" height="48" rx="24" fill="#0080FF" />
+  <rect x="296" y="354" width="64" height="48" rx="24" fill="#0055FF" />
+</svg>
