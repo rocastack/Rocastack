@@ -1,6 +1,5 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
-import AssemblySection from '../components/AssemblySection';
 import BentoGridSection from '../components/BentoGridSection';
 
 export default function LandingPage() {
@@ -8,7 +7,7 @@ export default function LandingPage() {
     <>
       <HeroSection />
       <BentoGridSection />
-      <AssemblySection />
+
     </>
   );
 }
